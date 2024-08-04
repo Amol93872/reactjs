@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function MyComponent() {
-  const [user, setUser] = useState({ name: "Alice", age: 30 });
+  const [user, setUser] = useState({ name: "Alice", age: 18 });
 
   const handleAgeChange = (newAge) => {
     setUser({ ...user, age: newAge }); // Create a new object with updated age
