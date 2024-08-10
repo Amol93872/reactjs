@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function ToggleComponent() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   const toggleVisibility = () => {
     setIsVisible((prevIsVisible) => !prevIsVisible);

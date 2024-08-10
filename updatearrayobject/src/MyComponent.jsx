@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-
 const MyComponent = () => {
   const [items, setItems] = useState([
     { id: 1, name: "Item 1" },
     { id: 2, name: "Item 2" },
   ]);
-
   const updateItem = (id, newName) => {
     setItems((prevItems) =>
       prevItems.map((item) =>
