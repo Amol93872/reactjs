@@ -3,7 +3,6 @@ import { SketchPicker } from "react-color";
 
 function App() {
   const [color, setColor] = useState("#fff");
-
   const handleChangeComplete = (color) => {
     setColor(color.hex);
   };

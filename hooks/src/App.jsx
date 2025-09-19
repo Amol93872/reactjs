@@ -1,9 +1,11 @@
+import Another from "./Another";
 import Counter from "./Wooh";
 
 function App() {
   return (
     <>
       <Counter />
+      <Another />
     </>
   );
 }
